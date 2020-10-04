@@ -1,0 +1,66 @@
+.container{
+    height: 400px;
+    width: 400px;
+    margin-left: 3px;
+    border:3px solid white;
+    margin-top: 15%;
+    margin-bottom: auto;
+    border-radius: 25px;
+    padding-left: 0;
+    padding-top: 0;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .rimage{
+        border-radius: 20px;
+        border-bottom-left-radius :0 ;
+        border-bottom-right-radius: 0;
+        min-width: 400px;
+        min-height: 200px;
+        max-width: 400px;
+        max-height: 200px;
+        margin-top: -10px;
+        margin-left: -3px;
+        
+    }
+    .ricon{
+        min-width: 80px;
+        min-height: 80px;
+        max-width: 80px;
+        max-height: 80px;
+        margin: 25px;
+        padding-top: 0;
+    }
+    .text{
+        margin-top: 10%;
+    }
+    .stars{
+        display: inline;
+        .full{
+            color:rgb(0,153,204);
+        }
+        
+    }
+    .scrolling-wrapper {
+        padding-left: 25px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+         .card {
+        background-color: lightgray;
+        display: inline-block;
+        margin:1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border: lightgrey;
+      } 
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      
+    }
+}
+
+
+

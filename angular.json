@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": []
           },
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "assignment2"
+    }
+  },
+  "defaultProject": "assignment2",
+  "cli": {
+    "analytics": "393ed1ae-0c1c-4747-8719-87a2ac11c136"
+  }
 }
