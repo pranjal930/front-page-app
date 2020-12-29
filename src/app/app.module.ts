@@ -13,7 +13,6 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { SearchbarComponent } from './shared/searchbar/searchbar.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +25,6 @@ import { SearchbarComponent } from './shared/searchbar/searchbar.component';
     HeaderComponent,
     FooterComponent,
     SearchbarComponent,
-   
   ],
   imports: [
     BrowserModule,
