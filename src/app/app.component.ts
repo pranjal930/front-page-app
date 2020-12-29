@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 
 @Component({
@@ -8,7 +8,7 @@ import { Meta } from '@angular/platform-browser';
 })
 export class AppComponent implements OnInit {
   title = 'assignment2';
-  constructor(privat metaTagService:Meta)
+  constructor(private metaTagService:Meta){}
   ngOnInit(){
     this.metaTagService.addTags([
 				{ property:'description' , content : 'hello'},
